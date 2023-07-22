@@ -1,3 +1,126 @@
+body{
+  background-image: linear-gradient(to right, rgb(101, 101, 214),rgb(211, 39, 67),rgb(121, 121, 236));
+}
+.box{
+  height: 40px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.text
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* line-height: 5px; */
+  gap: 30px;
+}
+.button
+{
+  height: 40px;
+  width: 150px;
+  background-color: #101f61;
+  border-radius: 20px;
+}
+.button1
+{
+  height: 40px;
+  width: 150px;
+  background-color: #110291;
+  border-radius: 20px;
+  /* position: absolute;
+  top: 250px;
+  left: 40%; */
+}
+.reverse{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+    /* position: absolute; */
+
+  /* flex-direction: column-reverse; */
+}
+.push{
+  width: 400px;
+  height: 40px;
+  text-align: center;
+  border: 2px solid black;
+  background-color: rgb(218, 219, 162);
+  border-radius: 10px;
+
+  /* display: inline; */
+}
+.bigbox
+{
+  width: 1000px;
+  max-height: 1000px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* gap: 30px; */
+  justify-content: space-around;
+  /* display: flex; */
+  /* transform: translate(-50% , -50%); */
+  /* position: absolute; */
+  top: 150px;
+  left: 15%;
+}
+.head{
+  text-align: center;
+}
+.text2
+{
+  font-size: 25px;
+  font-weight: bold;
+}
+.data1{
+  display: flex;
+  gap: 10px;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 .App {
   text-align: center;
 }
